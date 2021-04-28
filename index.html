@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=PT+Sans:ital@0;1&family=Work+Sans:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style/style.css">
+    <title>Exam</title>
+</head>
+<body>
+    <div class="home">
+        <div class="wrapper">
+            <div class="home__navigation">
+                <div>
+                    <a href="#">
+                        <img class="home__navigation--logo" src="./images/Logo.svg" alt="Logo">
+                    </a>
+                </div>
+                <div>                                    
+                    <button class="toggle-nav">
+                        <span></span>
+                    </button>                                        
+                    <ul class="home__navbar">
+                        <li class="nav-item">
+                            <a class="nav-link home-link" href="#"> HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-link" href="#services">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-link" href="#works">WORKS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link home-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="home__body">
+                <h1>CREATIVE DIGITAL PROJECT</h1>
+                <span class="home__body--subtitle">
+                    Duis mollis, est non commodo luctus,
+                    <br> 
+                    nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <div class="wrapper">
+            <div class="about__container">
+                <div class="about__container--title">
+                    <img src="./images/Icon-AboutUs.png" alt="Icon-AboutUs">
+                    <h3 class="title-block">ABOUT US</h3>
+                </div>
+                <div class="about__container-article">
+                    <p>
+                        Nullam quis risus eget urna <strong>mollis ornare</strong>  vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. 
+                    </p>
+                    <p class="about__container-article-block2">
+                        <strong>Morbi leo risus</strong>, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet <i>fermentum</i>. Sed posuere consectetur est at lobortis.
+                    </p>
+                    <p class="btn-size">
+                      <a class="btn-about" href="#">Learn More</a>  
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="services">
+        <div class="wrapper">
+            <div class="services-cards">
+                <div class="card-sm services-card-item">
+                    <div class="services-card-sm services__items-Graphic-Mobile">
+                        <img src="./images/Icon-Graphic.png" alt="Icon-Graphic">
+                        <h4 class="services-card-title">GRAPHIC DESIGN</h4>
+                        <span class="servCard-subtitle services-card-subtitle">
+                            Cras mattis consectetur purus sit amet fermentum.
+                        </span>
+                    </div>
+                    <div class="services-card-sm services__items-Seo-Web">
+                        <img src="./images/Icon-SEO.png" alt="Icon-SEO">
+                        <h4 class="services-card-title">SEO & MARKETING</h4>
+                        <span class=" servCard-subtitle services-card-subtitle">
+                            Cras mattis consectetur purus sit amet fermentum.
+                        </span>
+                    </div>
+                </div>
+                <div class="card-sm services-card-item">
+                    <div class="services-card-sm services__items-Seo-Web">
+                        <img src="./images/Icon-Web.png" alt="Icon-Web">
+                        <h4 class="services-card-title">WEB DEVELOPMENT</h4>
+                        <span class="servCard-subtitle services-card-subtitle">
+                            Cras mattis consectetur purus sit amet fermentum.
+                        </span>
+                    </div>
+                    <div class="services-card-sm services__items-Graphic-Mobile">
+                        <img src="./images/Icon-Mobile.png" alt="Icon-Mobile">
+                        <h4 class="services-card-title">MOBILE DEVELOPMENT</h4>
+                        <span class="servCard-subtitle services-card-subtitle">
+                            Cras mattis consectetur purus sit amet fermentum.
+                        </span>
+                    </div>
+                </div>
+                <div class="services-card-last services-card-item services-card-active">
+                    <img src="./images/Icon-Services.png" alt="Icon-Services">
+                    <h3 class="services-card-title_last">OUR SERVICES</h3>
+                    <span class="servCard-subtitle services-card-last-subtitle">
+                        “Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.” <strong>- Borat -</strong> 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div  >
+
+    <div id="works" class="works">
+        <div class="wrapper">
+            <img class="works__logo" data-lazy="./images/Icon-Works.png" src="./images/Icon-Works.png" alt="Icon-Works">
+            <h3>RECENT WORKS</h3>
+            <div class="works__gal">
+                <div>
+                   <img class="works__gal-image" data-lazy="./images/1_works.jpg" src="./images/1_works.jpg" alt="1_works"> 
+                </div>
+                <div>
+                   <img class="works__gal-image" data-lazy="./images/1_4.jpg" src="./images/1_4.jpg" alt="1_4"> 
+                </div>
+                <div>
+                    <img class="works__gal-image" data-lazy="./images/works-gal.png" src="./images/works-gal.png" alt="works-gal">
+                </div>
+                <div>
+                    <img class="works__gal-image" data-lazy="./images/1_3.jpg" src="./images/1_3.jpg" alt="1_3">
+                </div>
+                
+            </div>
+            <p class="btn-size btn-works-wrapper">
+                <a class="btn-works" href="#">View Gallery</a>  
+              </p>
+        </div>
+    </div>
+
+    <div id="team" class="team">
+        <div class="wrapper">
+            <div class="team-container">
+                <img class="team-logo" src="./images/Icon-Team.png" alt="Icon-Team">
+                <h3 class="team-title">MEET OUR TEAM</h3>
+            
+                <div class="team-container-slide">
+
+                    <div class="team-card">
+                        <div class="team-card-image-container">
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1.png" src="./images/Ellipse 1.png" alt="Ellipse 1-1">
+                        </div>
+                        <h5 class="team-card-title">MIGUEL OBRIEN</h5>
+                        <span class="team-card-subtitle">CEO & Founder</span>
+                        <div class="team-card-footer team-card-footer_first">
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div>
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1-2.png" src="./images/Ellipse 1-2.png" alt="Ellipse 1-2">
+                        </div>
+                        <h5 class="team-card-title">JACKIE CARROLL</h5>
+                        <span class="team-card-subtitle">Art Director</span>
+                        <div class="team-card-footer">
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card2-3-logo" src="./images/behance.svg" alt="behance">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-card-image-container">
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1-1.png" src="./images/Ellipse 1-1.png" alt="Ellipse 1-1">
+                        </div>
+                        <h5 class="team-card-title">IDA MORRISON</h5>
+                        <span class="team-card-subtitle">Designer</span>
+                        <div class="team-card-footer">
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card2-3-logo" src="./images/behance.svg" alt="behance">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div> 
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-card-image-container">
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1.png" src="./images/Ellipse 1.png" alt="Ellipse 1-1">
+                        </div>
+                        <h5 class="team-card-title">MIGUEL OBRIEN</h5>
+                        <span class="team-card-subtitle">CEO & Founder</span>
+                        <div class="team-card-footer team-card-footer_first">
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-card-image-container">
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1-2.png" src="./images/Ellipse 1-2.png" alt="Ellipse 1-2">
+                        </div>
+                        <h5 class="team-card-title">JACKIE CARROLL</h5>
+                        <span class="team-card-subtitle">Art Director</span>
+                        <div class="team-card-footer">
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card2-3-logo" src="./images/behance.svg" alt="behance">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-card-image-container">
+                            <img class="team-card-image" data-lazy="./images/Ellipse 1-1.png" src="./images/Ellipse 1-1.png" alt="Ellipse 1-1">
+                        </div>
+                        <h5 class="team-card-title">IDA MORRISON</h5>
+                        <span class="team-card-subtitle">Designer</span>
+                        <div class="team-card-footer">
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card2-3-logo" data-lazy="./images/behance.svg" src="./images/behance.svg" alt="behance">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" data-lazy="./images/linked-in.svg" src="./images/linked-in.svg" alt="linked-in">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" data-lazy="./images/google+.svg" src="./images/google+.svg" alt="google+">
+                            </a>
+                            <a class="link-logo link-logo-withBehance" href="#">
+                                <img class="team__footer-card1-logo" data-lazy="./images/facebook.svg" src="./images/facebook.svg" alt="facebook">
+                            </a>
+                            <a class="link-logo" href="#">
+                                <img class="team__footer-card1-logo" data-lazy="./images/twitter.svg" src="./images/twitter.svg" alt="twitter">
+                            </a>
+                        </div>
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <div class="wrapper">
+            <img class="contact-logo" src="./images/Layer 7.png" alt="Layer 7">
+            <h3>GET IN TOUCH</h3>
+            <div class="contact_return--adress">
+                <div class="contact_return--logo-1">
+                    <img class="contact-logo" data-lazy="./images/contact-adress-logo.png" src="./images/contact-adress-logo.png" alt="contact-adress-logo">
+                </div>
+                <div class="contact_return--info-1">
+                    Ikan Piranha Atas 220C Malang - East Java Indonesia
+                </div>
+            </div>
+            <div class="contact_return--phone">
+                <div class="contact_return--logo-2">
+                    <img class="contact-logo" data-lazy="./images/contact-phone-logo.png" src="./images/contact-phone-logo.png" alt="contact-phone-logo">
+                </div>
+                <div class="contact_return--info-2">
+                    <a class="contact-link" href="tel:+381236123456">+38(1236)12-34-56</a>
+                    <a class="contact-link" href="tel:+380671234567">+38(067)123-45-67</a>
+                    <a class="contact-link" href="mailto:info@creative-project.org">info@creative-project.org</a>
+                </div>
+            </div>
+            <form class="contact_return--form" action="#" method="GET">
+                <div class="contact_form--adress">
+                    <input class="contact_form--data" 
+                        type="text" 
+                        placeholder="Your Name *" 
+                        name="name"
+                        maxlength="100"
+                        required>
+                    <input class="contact_form--data" 
+                        type="email" 
+                        placeholder="Your Email *" 
+                        name="email"
+                        required />
+                </div>
+                <textarea placeholder="Your Message *" required></textarea>
+                <button class="contact_form-submit" type="submit">SEND MESSAGE</button>
+
+                
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="footer-copyright">
+                <p>©2014 tulusdriyo. All Rights Reserved.</p>
+                <div class="footer-logo">
+                    <a class="link-footer" href="#">
+                        <img class="link-footer-logo" src="./images/behance.svg" alt="behance">
+                    </a>
+                    <a class="link-footer" href="#">
+                        <img class="link-footer-logo" src="./images/linked-in.svg" alt="linked-in">
+                    </a>
+                    <a class="link-footer" href="#">
+                        <img class="link-footer-logo" src="./images/google+.svg" alt="google+">
+                    </a>
+                    <a class="link-footer" href="#">
+                        <img class="link-footer-logo" src="./images/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="link-footer" href="#">
+                        <img class="link-footer-logo" src="./images/twitter.svg" alt="twitter">
+                    </a>
+                </div>
+            </div>
+
+             
+        </div>
+
+    </div>
+    <div class="toggle-goHome">
+        <a href="#">
+             <img src="./images/interface - arrow top.svg" alt="interface - arrow top">
+        </a>  
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./script/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script/script.js"></script>
+</body>
+</html>
